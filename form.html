@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href=""https://fonts.googleapis.com/css2?family=Lato%3Awght%40400%3B700%3B800%3B900&display=swap">
+  </head>
+  <body>
+    <header>
+      <style>
+        .quote{
+          color: red;
+        }
+        
+.btn {
+  margin-left: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  padding: 0;
+  background-color: black;
+  height: 45px;
+  width: 100px;
+  color: #fff;
+  border-radius: 0;
+}
+
+.btn:hover {
+   cursor: pointer;
+   background-color: #161616; 
+}
+    
+.click {
+  text-transform: uppercase;
+}
+      </style>
+    <nav>
+      <ul>
+         <li><a href="index.html">Home Page</a></li>
+         <li><a href="form.html">Application Form</a></li>
+         <li><a href="table.html">AltSchool Africa courses</a></li>
+         <li><a href="media.html">Media</a></li>
+      </ul>
+    </nav>
+
+      <center>
+        <h1>AITSCHOOL APPLICATION FORM</h1>
+        <form action="/submit" method="post">
+      </center>
+
+      <h2>Signup</h2>
+      <h4 class="quote">Jumpstart Your Future: Apply Now at AltSchool Africa!</h4>
+    </header>
+    <main>
+      <fieldset>
+           <legend><h4>PERSONAL INFORMATION</h4></legend>
+           <label for="name">First Name</label><br /><br>
+           <input placeholder="Enter first name" type="text" / required>
+          <br /><br />
+
+           <label for="name">Last Name</label><br /><br>
+           <input placeholder="Enter last name" type="text" / required>
+           <br /><br>
+
+           <label for="">Gender</label><br /><br>
+            <select name="Gender" id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+            <br /><br />
+         
+           <label for="Date of birth">Date Of Birth</label><br /><br>
+           <input placeholder="" type="text" /><br /><br>
+
+           <label for="email">Email Address</label><br /><br>
+          <textarea name="address" id="address" required></textarea>
+          <br /><br />
+
+           <label for="phone number">Phone Number</label><br /><br>
+           <input placeholder="08159914580" type="text" /><br /><br>
+          
+
+           <label for="country">Country</label><br /><br>
+            <select name="country" id="country">
+              <option value="nigeria">Nigeria</option>
+              <option value="United States">United States</option>
+              <option value="China">China</option>
+              <option value="India">India</option>
+              <option value="Brazil">Brazil</option>
+              <option value="South Africa">South Africa</option>
+              <option value="Morocco">Morroco</option>
+              <option value="Tanzania">Tanzania</option>
+            </select>
+          <br /><br />
+
+    
+            <label for="State/City Of Residence">State/City Of Residence</label><br /><br>
+            <input placeholder="Enter your state of residence" type="text" /><br /><br>
+         
+
+           <label for="">How Did You Hear About Us</label><br /><br>
+            <select name="channel" id="select channel">
+              <option value="Instagram">Instagram</option>
+              <option value="Whatsapp">Whatsapp</option>
+              <option value="Youtue">Youtube</option>
+              <option value="Twitter">X</option>
+              <option value="TikTok">TikTok</option>
+            </select>
+          <br><br>
+
+           <label for="Password">Password</label><br /><br>
+           <input type="password" name="password" id="Enter password"><br /><br>
+      
+
+           <label for="confirm_password">Confirm Password</label><br /><br>
+           <input type="password" name="confirm_password" id="confirm_password"><br><br>
+          
+
+           <label for="Programme">Programme Choice</label><br /><br>
+            <select name="Programme" id="Programme Choice">
+            <option value="Front-end">Front-end Development</option>
+            <option value="Cloud Engineering">Cloud Engineering</option>
+            <option value="Back-end">Back-end Development</option>
+          </select>
+          
+      </fieldset>
+      <br>
+
+       <p class="click">Click submit</p>
+       <button class="btn" type="submit">Submit Application</button>
+    </form>
+    </main>
+  </body>
+</html>
